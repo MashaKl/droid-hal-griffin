@@ -9,6 +9,13 @@
 
 %define installable_zip 1
 %define droid_target_aarch64 1
+%define makefstab_skip_entries /vendor /dev/stune /sys/fs/pstore /dev/cpuctl
+%define straggler_files \
+/property_contexts \
+/service_contexts \
+/vendor \
+/wlan_carrier_bin.sh \
+%{nil}
 
 %include rpm/dhd/droid-hal-device.inc
 
