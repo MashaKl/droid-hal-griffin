@@ -15,9 +15,12 @@
 /service_contexts \
 /vendor \
 /wlan_carrier_bin.sh \
+<<<<<<< HEAD
 /init.mmi.boot.sh \
 /init.mmi.laser.sh \
 /init.mmi.touch.sh \
+=======
+>>>>>>> a7663c638876957eb055a4175194c670c01a9cef
 %{nil}
 
 %define android_config \
